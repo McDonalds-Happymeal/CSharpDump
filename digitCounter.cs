@@ -7,11 +7,8 @@ public class digitCounter
         Console.WriteLine("This program will take a interger input and calucate the number of digits");
         Console.Write("\nInput:");
         int input = Convert.ToInt32(Console.ReadLine());
-
         Math.Abs(input);
-
         int digits = 0;
-
         while(input >0)
         {
             digits++;
